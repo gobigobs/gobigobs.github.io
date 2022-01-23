@@ -164,6 +164,10 @@
     text-transform: none;
 }
 
+.text-trans-caps {
+    text-transform: capitalize;
+}
+
 /* Progress Bar */
 .wrapper{
     /* width: 400px; */
@@ -323,15 +327,19 @@
     background-color: var(--heading-color)!important;
 }
 
-.border-right-dotted {
-    border-right: 1px dotted var(--heading-color);
-}
-
 .border-left-dotted {
     border-left: 1px dotted var(--heading-color);;
 }
 
 /* Media Quries */
+
+
+
+@media (min-width: 760px) {
+    .border-right-dotted {
+        border-right: 1px dotted var(--heading-color);
+    }
+}
 
 @media (min-width: 1200px) {
     .navbar-dark .navbar-nav .nav-item .nav-link:focus {
