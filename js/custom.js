@@ -71,7 +71,7 @@ $(document).ready(function () {
 
 // display ad preview
 
-$('.cb-displayad .table_ad_img').on('click', function () {
-  $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+$('.zoomBtn').on('click', function () {
+  $('.enlargeImageModalSource').attr('src', $(this).attr('data-img'));
   $('#enlargeImageModal').modal('show');
 });

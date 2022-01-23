@@ -8,6 +8,9 @@
 }
 
 /* Navbar */
+.grey-text {
+    color: #f5f5f5 !important;
+}
 
 .navbar-font {
     font-family: 'lato';
